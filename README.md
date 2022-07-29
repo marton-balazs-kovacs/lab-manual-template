@@ -6,8 +6,16 @@ Lab manuals are effective tools for recording who we are and how we do things in
 
 ## Project structure
 
-The lab manual templates are stored in the `/templates` folder.
+The lab manual JSON schema can be found in the `lab-manual-schema.json` file. Our general purpose lab manual template is in the `lab-manual-template.json` file, while the `lab-manual-template.docx` file contains a rendered version. The `templates.json` file contains meta-information on the lab manual templates formatted according our schema and available through the `blueprint` app.
 
 ## Contributions
 
-If you would like to submit your own lab manual template to help others from a specific institution or research field to create their own manual more easily you can submit your template formatted to our JSON schema as a pull request. Please, place the template in the `/templates` folder and describe in the pr who is the target audiance of your template and propose experts from the target audiance for a review.
+If you would like to submit your own lab manual template to help others from a specific institution or research field to create their own manual more easily you can submit your template formatted to our JSON schema. To submit a new template please supplement the `templates.json` file with a new object formatted the following way and create a pull request:
+
+```
+{
+  'title': 'Human readable name of the template',
+  'template': 'URL to the raw json file containing the template',
+  'usecase': 'Short description of who is the target audiance of the template'
+}
+```
