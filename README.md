@@ -6,7 +6,7 @@ Lab manuals are effective tools for recording who we are and how we do things in
 
 ## Project structure
 
-The lab manual JSON schema can be found in the `lab-manual-schema.json` file. Our general purpose lab manual template is in the `lab-manual-template.json` file, while the `lab-manual-template.docx` file contains a rendered version. The `templates.json` file contains meta-information on the lab manual templates formatted according our schema and available through the `blueprint` app.
+The lab manual JSON schema can be found in the `lab-manual-template-schema.json` file. Our general purpose lab manual template is in the `lab-manual-template.json` file, while the `lab-manual-template.docx` file contains a rendered version. The `templates.json` file contains meta-information on the lab manual templates formatted according our schema and available through the `blueprint` app.
 
 ## Contributions
 
@@ -14,8 +14,18 @@ If you would like to submit your own lab manual template to help others from a s
 
 ```
 {
-  'title': 'Human readable name of the template',
-  'template': 'URL to the raw json file containing the template',
-  'usecase': 'Short description of who is the target audiance of the template'
+  "title": "Human readable name of the template",
+  "template": "URL to the raw json file containing the template",
+  "usecase": "Short description of who is the target audiance of the template"
+}
+```
+
+If you used our lab manual template to write your own lab manual and you shared the resulting document publicly, please consider adding the manual to our collection of lab manuals in the `manuals.json` file. To do so please use the following format:
+
+```
+{
+	"link": "Link to the openly shared lab manual.",
+	"pi": "Name of the PI of the lab.",
+	"name": "Name of the lab."
 }
 ```
