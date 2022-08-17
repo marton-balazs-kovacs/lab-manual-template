@@ -1,6 +1,6 @@
 {
- 	"$id": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/lab-manual-template-schema.json",
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/lab-manual-template-schema.json",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Schema for validating lab manuals and lab manual templates",
 	"$comment": "Currently the same validation schema is used for lab manuals and lab manual templates.",
 	"type": "object",
@@ -18,7 +18,6 @@
 					"title": "URL of the template",
 					"description": "Static URL of the lab manual template that the current document was based on.",
 					"type": "string"
-					
 				},
 				"validationSchemaId": {
 					"title": "URL of the validation schema",
@@ -27,7 +26,11 @@
 					"const": "https:://github.com/marton-balazs-kovacs/lab-manual-template/lab-manual-template-schema.json"
 				}
 			},
-			"required": ["templateName", "templateId", "validationSchemaId"]
+			"required": [
+				"templateName",
+				"templateId",
+				"validationSchemaId"
+			]
 		},
 		"contents": {
 			"title": "Content of the lab manual or lab manual template",
@@ -35,107 +38,134 @@
 			"items": {
 				"$ref": "#/$defs/contentObject"
 			},
-			"required": ["title"],
-			"$defs": {
-				"contentObject": {
-					"title": "content object",
-					"description": "An object representing a heading, optionally including a description, text options, and other content objects.",
-					"type": "object",
-					"properties": {
-						"title": {
-							"description": "The title of the content object.",
-							"type": "string"
-						},
-						"description": {
-							"description": "The description of the content object.",
-							"type": "string"
-						},
-						"options": {
-							"description": "A list of text options that can be selected to fill in a field.",
-							"type": "array",
-							"items": {
-								"oneOf": [
-                                  {"$ref": "#templateString"},
-                                  {"type": "string"}
-								]
-							} 
-						},
-						"options-selected": {
-							"description": "Index of the preselected option. Should be set to -1 if none of the options are selected.",
-							"type": "number"
-						},
-						"contents": {
-							"description": "A list of content objects belonging to this content object.",
-							"type": "array",
-							"items": {
-								"$ref": "#"
+			"required": [
+				"title"
+			]
+		}
+	},
+	"required": [
+		"metadata",
+		"contents"
+	],
+	"$defs": {
+		"contentObject": {
+			"title": "content object",
+			"description": "An object representing a heading, optionally including a description, text options, and other content objects.",
+			"type": "object",
+			"properties": {
+				"title": {
+					"description": "The title of the content object.",
+					"type": "string"
+				},
+				"description": {
+					"description": "The description of the content object.",
+					"type": "string"
+				},
+				"options": {
+					"description": "A list of text options that can be selected to fill in a field.",
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"$ref": "#/$defs/templateString"
+							},
+							{
+								"type": "string"
 							}
-						},
-						"resources": {
-							"description": "An array of objects or strings containing information regarding external resources.",
-							"oneOf": [
-								{"type": "string"},
-								{"$ref": "#templateResource"}
-							]
-						}
-					},
-					"required": ["title"]	
+						]
+					}
 				},
-				"templateString": {
-					"title": "template string",
-					"description": "A templateString is an object with a string and additional metadata. It supports \\# placeholders that contain options.",
-					"type": "object",
-					"properties": {
-						"text": {
-							"description": "Text with zero or more special placeholders of backslash followed by a number. These placeholders are to be replaced by other templateStrings or strings, with the options for replacement listed in templateOptions.",
-							"oneOf": [
-								{"type": "string"},
-								{"$ref": "#"}
-							]
-						},
-						"hint": {
-							"description": "A human-readable description of the text content. If the template is used with blueprint, this is displayed as a hint to the user.",
+				"options-selected": {
+					"description": "Index of the preselected option. Should be set to -1 if none of the options are selected.",
+					"type": "number"
+				},
+				"contents": {
+					"description": "A list of content objects belonging to this content object.",
+					"type": "array",
+					"items": {
+						"$ref": "#"
+					}
+				},
+				"resources": {
+					"description": "An array of objects or strings containing information regarding external resources.",
+					"oneOf": [
+						{
 							"type": "string"
 						},
-						"difficulty": {
-							"description": "The difficulty level of the text content. Used to order different options.",
-							"type": "number"
-						},
-						"templateOptions": {
-							"$ref": "#templateOptions"
-						},
-						"selected": {
-							"description": "If this is one of a series of templateOptions or options, this should be true if this is the option selected.",
-							"type": "boolean"
+						{
+							"$ref": "#/$defs/templateResource"
 						}
-					},
-					"required": ["text"]
-				},
-				"templateOptions": {
-					"title": "template options",
-					"description": "A list of lists of one or more _strings_ or _templateString_ objects to replace the placeholders in the text. The first list is the options for the placeholder \\1 in the text, the second list is the options for the placeholder \\2 in the text, etc. The number of lists must match the highest-numbered \\# placeholder. _templateOptions_ cannot be used with zero special placeholders in templateString.text. The main difference between templateString.templateOptions and contentObject.options is that templateOptions modifies the text property of the templateString, while options do not.",
+					]
+				}
+			},
+			"required": [
+				"title"
+			]
+		},
+		"templateString": {
+			"title": "template string",
+			"description": "A templateString is an object with a string and additional metadata. It supports \\# placeholders that contain options.",
+			"type": "object",
+			"properties": {
+				"text": {
+					"description": "Text with zero or more special placeholders of backslash followed by a number. These placeholders are to be replaced by other templateStrings or strings, with the options for replacement listed in templateOptions.",
 					"oneOf": [
-						{"type": "string"},
-						{"$ref": "#templateString"}
+						{
+							"type": "string"
+						},
+						{
+							"$ref": "#"
+						}
 					]
 				},
-				"templateResource": {
-					"title": "template resource",
-					"description": "Object containing a link to the resource and a human-readable descriptions.",
-					"properties": {
-						"link": {
-							 "description": "Valid link to the resource.",
-							 "type": "string"
-						},
-						"description": {
-							"description": "Human-readable description of the resource.",
-							"type": "string"
-						}
-					},
-					"required": ["link"]
+				"hint": {
+					"description": "A human-readable description of the text content. If the template is used with blueprint, this is displayed as a hint to the user.",
+					"type": "string"
+				},
+				"difficulty": {
+					"description": "The difficulty level of the text content. Used to order different options.",
+					"type": "number"
+				},
+				"templateOptions": {
+					"$ref": "#/$defs/templateOptions"
+				},
+				"selected": {
+					"description": "If this is one of a series of templateOptions or options, this should be true if this is the option selected.",
+					"type": "boolean"
 				}
-			}
-		} 
-	},
-	"required": ["metadata", "contents"]
+			},
+			"required": [
+				"text"
+			]
+		},
+		"templateOptions": {
+			"title": "template options",
+			"description": "A list of lists of one or more _strings_ or _templateString_ objects to replace the placeholders in the text. The first list is the options for the placeholder \\1 in the text, the second list is the options for the placeholder \\2 in the text, etc. The number of lists must match the highest-numbered \\# placeholder. _templateOptions_ cannot be used with zero special placeholders in templateString.text. The main difference between templateString.templateOptions and contentObject.options is that templateOptions modifies the text property of the templateString, while options do not.",
+			"oneOf": [
+				{
+					"type": "string"
+				},
+				{
+					"$ref": "#/$defs/templateString"
+				}
+			]
+		},
+		"templateResource": {
+			"title": "template resource",
+			"description": "Object containing a link to the resource and a human-readable descriptions.",
+			"properties": {
+				"link": {
+					"description": "Valid link to the resource.",
+					"type": "string"
+				},
+				"description": {
+					"description": "Human-readable description of the resource.",
+					"type": "string"
+				}
+			},
+			"required": [
+				"link"
+			]
+		}
+	}
 }
