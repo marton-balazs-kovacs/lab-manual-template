@@ -1,5 +1,5 @@
 {
- 	"$id": "https:://github.com/marton-balazs-kovacs/lab-manual-template/lab-manual-template-schema.json",
+ 	"$id": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/lab-manual-template-schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
 	"title": "Schema for validating lab manuals and lab manual templates",
 	"$comment": "Currently the same validation schema is used for lab manuals and lab manual templates.",
