@@ -1,719 +1,743 @@
 {
-    metadata: {},
-    contents: {
-        [
-            {
-                title: "About this Manual",
-                description: "",
-                contents: [
-                    {
-                        title: "Manual metadata",
-                        description: "manual version, last update time"
-                    },
-                    {
-                        title: "Why we use a lab manual",
-                        description: "the role it plays in the lab"
-                    },
-                    {
-                        title: "How to update the manual",
-                        description: "in which case, how, and how regularly you plan to update it",
-                        options: [
-                            {
-                                text: "When changes are made, note the date of the update; note the author of the edits; add any acronyms used to the list of acronyms.",
-                                difficulty: 1
-                            },
-                            {
-                                text: "When changes are made, update the metadata to increment the version (use semantic versioning of release.major.minor); note the new date; note the author of the edits; add any acronyms used to the list of acronyms.",
-                                difficulty: 2
-                            }
-                        ]
-                    },
-                    {
-                        title: "Abbreviations",
-                        description: "comprehensive list of abbreviations used in the manual"
-                    }
-                ]
-            },
+    "metadata": {},
+    "contents": [
         {
-            title: "Who we are",
-            description: "",
-            contents: [
+            "title": "About this Manual",
+            "description": "",
+            "contents": [
                 {
-                    title: "About the Lab",
-                    description: "",
-                    contents: [
+                    "title": "Manual metadata",
+                    "description": "manual version, last update time"
+                },
+                {
+                    "title": "Why we use a lab manual",
+                    "description": "the role it plays in the lab"
+                },
+                {
+                    "title": "How to update the manual",
+                    "description": "in which case, how, and how regularly you plan to update it",
+                    "options": [
                         {
-                            title: "Lab mission/focus",
-                            description: "what the lab wants to achieve, what are the lab's ambitions / research topics"
+                            "text": "When changes are made, note the date of the update; note the author of the edits; add any acronyms used to the list of acronyms.",
+                            "difficulty": 1
                         },
                         {
-                            title: "Lab philosophy/values",
-                            description: "how the lab approaches its work (e.g., following Open Science, consistently questioning one’s own findings, honesty, transparency, inclusion, diversity)"
+                            "text": "When changes are made, update the metadata to increment the version (use semantic versioning of release.major.minor); note the new date; note the author of the edits; add any acronyms used to the list of acronyms.",
+                            "difficulty": 2
+                        }
+                    ]
+                },
+                {
+                    "title": "Abbreviations",
+                    "description": "comprehensive list of abbreviations used in the manual"
+                }
+            ]
+        },
+        {
+            "title": "Who we are",
+            "description": "",
+            "contents": [
+                {
+                    "title": "About the Lab",
+                    "description": "",
+                    "contents": [
+                        {
+                            "title": "Lab mission/focus",
+                            "description": "what the lab wants to achieve, what are the lab's ambitions / research topics"
                         },
                         {
-                            title: "Lab history",
-                            description: "who started it, what has changed since the start, past research interests, notable publications"
+                            "title": "Lab philosophy/values",
+                            "description": "how the lab approaches its work (e.g., following Open Science, consistently questioning one’s own findings, honesty, transparency, inclusion, diversity)"
                         },
                         {
-                            title: "Lab space",
-                            description: "",
-                            contents: [
+                            "title": "Lab history",
+                            "description": "who started it, what has changed since the start, past research interests, notable publications"
+                        },
+                        {
+                            "title": "Lab space",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Contact information",
-                                    description: "physical address; email address; website etc."
+                                    "title": "Contact information",
+                                    "description": "physical address; email address; website etc."
                                 },
                                 {
-                                    title: "Facilities",
-                                    description: "testing spaces; pictures or referable descriptions of the lab"
+                                    "title": "Facilities",
+                                    "description": "testing spaces; pictures or referable descriptions of the lab"
                                 },
                                 {
-                                    title: "Lab resources",
-                                    description: "inventory with a full description of the instruments, tools, and equipment"
+                                    "title": "Lab resources",
+                                    "description": "inventory with a full description of the instruments, tools, and equipment"
                                 }
                             ]
                         },
                         {
-                            title: "Ethical code of conduct",
-                            description: "",
-                            contents: [
+                            "title": "Ethical code of conduct",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Lab ethical principles",
-                                    description: "how to respect the rights and personalities of each other; required human subjects training"
+                                    "title": "Lab ethical principles",
+                                    "description": "how to respect the rights and personalities of each other; required human subjects training"
                                 },
                                 {
-                                    title: "Diversity statement",
-                                    description: "a clear statement that the PI and the lab value diversity and practices that promote inclusiveness (e.g., checking pronouns, accomodations, mutual respect for people with diverse backgrounds and characteristics)",
-                                    resources: ["https://forrt.org/coc/"]
+                                    "title": "Diversity statement",
+                                    "description": "a clear statement that the PI and the lab value diversity and practices that promote inclusiveness (e.g., checking pronouns, accomodations, mutual respect for people with diverse backgrounds and characteristics)",
+                                    "resources": [
+                                        "https://forrt.org/coc/"
+                                    ]
                                 },
                                 {
-                                    title: "Institutional rules and code of conduct",
-                                    description: "list their links"
+                                    "title": "Institutional rules and code of conduct",
+                                    "description": "list their links"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    title: "Lab membership",
-                    description: "",
-                    contents: [
+                    "title": "Lab membership",
+                    "description": "",
+                    "contents": [
                         {
-                            title: "Onboarding",
-                            description: "what to do when joining the lab , it can be a standalone document",
-                            contents: [
+                            "title": "Onboarding",
+                            "description": "what to do when joining the lab , it can be a standalone document",
+                            "contents": [
                                 {
-                                    title: "Online accounts",
-                                    description: "on what services (e.g., GitHub, Slack, GoogleDrive, OSF.io, Dropbox, Twitter, Google Calendar, ORCID profile, Publon profile, Google Scholar profile, ResearchGate, Zoom, Microsoft Teams, reference manager etc.) should lab members have personal accounts; what organisational accounts should they connect with on those services; are free upgrades available for students/academics; what resources are available for upgraded accounts"
+                                    "title": "Online accounts",
+                                    "description": "on what services (e.g., GitHub, Slack, GoogleDrive, OSF.io, Dropbox, Twitter, Google Calendar, ORCID profile, Publon profile, Google Scholar profile, ResearchGate, Zoom, Microsoft Teams, reference manager etc.) should lab members have personal accounts; what organisational accounts should they connect with on those services; are free upgrades available for students/academics; what resources are available for upgraded accounts"
                                 },
                                 {
-                                    title: "Required skills",
-                                    description: "hat skills do lab members require (e.g., experience with software used in the lab; see below); what resources are available for training/acquiring those skills; how should new members prioritise training vs other commitments",
-                                    contents: [
+                                    "title": "Required skills",
+                                    "description": "hat skills do lab members require (e.g., experience with software used in the lab; see below); what resources are available for training/acquiring those skills; how should new members prioritise training vs other commitments",
+                                    "contents": [
                                         {
-                                            title: "Readings",
-                                            description: "set of publications and/or resources that every lab member should have read to create a minimum common knowledge"
+                                            "title": "Readings",
+                                            "description": "set of publications and/or resources that every lab member should have read to create a minimum common knowledge"
                                         }
                                     ]
                                 },
                                 {
-                                    title: "How to borrow equipment",
-                                    description: "laptop, phone, desk, chair, screens etc."
+                                    "title": "How to borrow equipment",
+                                    "description": "laptop, phone, desk, chair, screens etc."
                                 },
                                 {
-                                    title: "Using internal resources",
-                                    description: "webpage, server, shared tools, room keys, coffee machine, books etc."
+                                    "title": "Using internal resources",
+                                    "description": "webpage, server, shared tools, room keys, coffee machine, books etc."
                                 },
                                 {
-                                    title: "Using external resources",
-                                    description: "university/ building access card; institutional access to online resources; administrative assistants/ secretaries; access to printer/ photocopier/ printing card; VPN clients for working from home; remote desktop access, etc."
+                                    "title": "Using external resources",
+                                    "description": "university/ building access card; institutional access to online resources; administrative assistants/ secretaries; access to printer/ photocopier/ printing card; VPN clients for working from home; remote desktop access, etc."
                                 },
                                 {
-                                    title: "Financial resources",
-                                    description: "university relocation schemes, reimbursement for commuting, extra budget for buying a bike/ laptop/ office material etc."
+                                    "title": "Financial resources",
+                                    "description": "university relocation schemes, reimbursement for commuting, extra budget for buying a bike/ laptop/ office material etc."
                                 },
                                 {
-                                    title: "Resource to new foreign members",
-                                    description: "helpful information on how to set up a life in the country/city (e.g., visa issues, registration at uni, opening bank accounts, tips on living in the country (renting flats, health insurance, student deals for using public transportations, etc.)"
+                                    "title": "Resource to new foreign members",
+                                    "description": "helpful information on how to set up a life in the country/city (e.g., visa issues, registration at uni, opening bank accounts, tips on living in the country (renting flats, health insurance, student deals for using public transportations, etc.)"
                                 }
                             ]
                         },
                         {
-                            title: "Roles and duties of lab members",
-                            description: "",
-                            contents: [
+                            "title": "Roles and duties of lab members",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Roles",
-                                    description: "describes the roles in the lab. What expectations and responsibilities come with each role",
-                                    contents: [
+                                    "title": "Roles",
+                                    "description": "describes the roles in the lab. What expectations and responsibilities come with each role",
+                                    "contents": [
                                         {
-                                            title: "Full members",
-                                            description: "PI, postdocs, project managers, research assistants, master students, PhD students/candidates, etc."
+                                            "title": "Full members",
+                                            "description": "PI, postdocs, project managers, research assistants, master students, PhD students/candidates, etc."
                                         },
                                         {
-                                            title: "Associated members",
-                                            description: "visiting students, collaborators"
+                                            "title": "Associated members",
+                                            "description": "visiting students, collaborators"
                                         },
                                         {
-                                            title: "Lab’s friends",
-                                            description: "list of colleagues that are not part of the lab but that can be contacted because they are experts in topics that may be of interest (e.g. a colleague that is good in statistics or in programming, ongoing collaborations within the same or across different institutions, etc."
+                                            "title": "Lab’s friends",
+                                            "description": "list of colleagues that are not part of the lab but that can be contacted because they are experts in topics that may be of interest (e.g. a colleague that is good in statistics or in programming, ongoing collaborations within the same or across different institutions, etc."
                                         },
                                         {
-                                            title: "Non-scientific members",
-                                            description: "research coordinator, technicians, administrative assistants, etc."
+                                            "title": "Non-scientific members",
+                                            "description": "research coordinator, technicians, administrative assistants, etc."
                                         }
                                     ]
                                 },
                                 {
-                                    title: "Duties and responsibilities",
-                                    description: "general duties that will be assigned to lab members. e.g., organising lab meeting speakers, reserving conference room space, managing online (Zoom/Teams/GoogleMeet) meeting link, handling purchase orders, administering servers, handling lab social media, keeping the Lab Manual up-to-date"
+                                    "title": "Duties and responsibilities",
+                                    "description": "general duties that will be assigned to lab members. e.g., organising lab meeting speakers, reserving conference room space, managing online (Zoom/Teams/GoogleMeet) meeting link, handling purchase orders, administering servers, handling lab social media, keeping the Lab Manual up-to-date"
                                 }
                             ]
                         },
                         {
-                            title: "Career development",
-                            description: "",
-                            contents: [
+                            "title": "Career development",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Mentoring / career development",
-                                    description: "expectations in a mentor-mentee relationship, professional development; performance evaluation"
+                                    "title": "Mentoring / career development",
+                                    "description": "expectations in a mentor-mentee relationship, professional development; performance evaluation"
                                 },
                                 {
-                                    title: "Requesting letters of recommendation",
-                                    description: "timeline for requesting; materials to provide with the request"
+                                    "title": "Requesting letters of recommendation",
+                                    "description": "timeline for requesting; materials to provide with the request"
                                 }
                             ]
                         },
                         {
-                            title: "Leaving the lab",
-                            description: "",
-                            contents: [
+                            "title": "Leaving the lab",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Who to contact and when",
-                                    description: ""
+                                    "title": "Who to contact and when",
+                                    "description": ""
                                 },
                                 {
-                                    title: "How to return equipment",
-                                    description: "laptop, phone, etc."
+                                    "title": "How to return equipment",
+                                    "description": "laptop, phone, etc."
                                 },
                                 {
-                                    title: "How to archive work",
-                                    description: "paperwork, code, data, provide documentation of past work such that it can be picked up by others in the future"
+                                    "title": "How to archive work",
+                                    "description": "paperwork, code, data, provide documentation of past work such that it can be picked up by others in the future"
                                 },
                                 {
-                                    title: "Update/Revoke access",
-                                    decription: "update access to all apps, drives, accounts, etc."
+                                    "title": "Update/Revoke access",
+                                    "description": "update access to all apps, drives, accounts, etc."
                                 },
                                 {
-                                    title: "Keeping contact with ex-members",
-                                    description: "e.g., new email address"
+                                    "title": "Keeping contact with ex-members",
+                                    "description": "e.g., new email address"
                                 }
                             ]
                         }
-                        ]
+                    ]
                 }
-                ]
+            ]
         },
         {
-            title: "How we do things",
-            descriptions: "",
-            contents: [
+            "title": "How we do things",
+            "description": "",
+            "contents": [
                 {
-                    title: "Life in the lab",
-                    description: "",
-                    contents: [
+                    "title": "Life in the lab",
+                    "description": "",
+                    "contents": [
                         {
-                            title: "Time management",
-                            description: "",
-                            contents: [
+                            "title": "Time management",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Annual structure",
-                                    description: "How does a year look in the lab? How does term time differ from vacation time? What happens to lab meetings during summer break? Are there key annual events that require attendance?"
+                                    "title": "Annual structure",
+                                    "description": "How does a year look in the lab? How does term time differ from vacation time? What happens to lab meetings during summer break? Are there key annual events that require attendance?"
                                 },
                                 {
-                                    title: "Leave/ holidays",
-                                    description: "how many days of annual leave, is it okay to take most of your annual leave at once, sick leave guidelines, maternity leave, compassionate leave; how to request leave days/ whom to report leave to, e.g., administrative assistant/ official or PI; national holidays, special days on which the university is closed"
+                                    "title": "Leave/ holidays",
+                                    "description": "how many days of annual leave, is it okay to take most of your annual leave at once, sick leave guidelines, maternity leave, compassionate leave; how to request leave days/ whom to report leave to, e.g., administrative assistant/ official or PI; national holidays, special days on which the university is closed"
                                 },
                                 {
-                                    title: "Lab hours",
-                                    description: "when to be in the lab for different roles; when is the lab room open"
+                                    "title": "Lab hours",
+                                    "description": "when to be in the lab for different roles; when is the lab room open"
                                 },
                                 {
-                                    title: "Absences",
-                                    description: "when members are not in the lab, how to communicate leaves"
+                                    "title": "Absences",
+                                    "description": "when members are not in the lab, how to communicate leaves"
                                 },
                                 {
-                                    title: "Weekly/ regular meetings",
-                                    description: "time, place, Zoom/ Teams/ in-person, purpose, journal club readings + link to schedule"
+                                    "title": "Weekly/ regular meetings",
+                                    "description": "time, place, Zoom/ Teams/ in-person, purpose, journal club readings + link to schedule"
                                 },
                                 {
-                                    title: "Dealing with deadlines",
-                                    description: "how to plan the completion of deadlines, how to deal with delays"
+                                    "title": "Dealing with deadlines",
+                                    "description": "how to plan the completion of deadlines, how to deal with delays"
                                 },
                                 {
-                                    title: "In-lab and remote working norms",
-                                    description: "when are members expected to work in the lab or how can they work from home"
+                                    "title": "In-lab and remote working norms",
+                                    "description": "when are members expected to work in the lab or how can they work from home"
                                 },
                                 {
-                                    title: "Calendar usage",
-                                    description: "who to share your calendar with, what to put in your calendar"
+                                    "title": "Calendar usage",
+                                    "description": "who to share your calendar with, what to put in your calendar"
                                 },
                                 {
-                                    title: "Social and special events",
-                                    description: "if lab dinners/ excursions/ team-building/ etc. is a part of lab life, or if it isn’t, mention it here, social events; suggestions for places for lunch"
+                                    "title": "Social and special events",
+                                    "description": "if lab dinners/ excursions/ team-building/ etc. is a part of lab life, or if it isn’t, mention it here, social events; suggestions for places for lunch"
                                 }
                             ]
                         },
                         {
-                            title: "Communication",
-                            description: "",
-                            contents: [
+                            "title": "Communication",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Settling disagreements between lab members, “mediation”",
-                                    description: "both between lab members, lab members, and outside scientists, lab members, and the PI"
+                                    "title": "Settling disagreements between lab members, “mediation”",
+                                    "description": "both between lab members, lab members, and outside scientists, lab members, and the PI"
                                 },
                                 {
-                                    title: "Internal",
-                                    description: "email accounts, how and when to use email, phone, texting, direct messaging, lab meetings, etc.; when are you expected to be available; what to do when one doesn’t respond; dealing with administration (e.g., try face-to-face), how to keep up the good mood, confidentiality questions beyond the lab, if you have a question: who to turn to?"
+                                    "title": "Internal",
+                                    "description": "email accounts, how and when to use email, phone, texting, direct messaging, lab meetings, etc.; when are you expected to be available; what to do when one doesn’t respond; dealing with administration (e.g., try face-to-face), how to keep up the good mood, confidentiality questions beyond the lab, if you have a question: who to turn to?"
                                 },
                                 {
-                                    title: "External",
-                                    description: "social media policy, public outreach, independent mediators, how to get and give feedback",
-                                    contents: [
+                                    "title": "External",
+                                    "description": "social media policy, public outreach, independent mediators, how to get and give feedback",
+                                    "contents": [
                                         {
-                                            title: "Communication with collaborators",
-                                            description: "communication with scientists outside the lab for work on common projects, e.g. keep the PI in ‘Cc’ or not, possible standard operating procedures to agree on/ negotiate before collaborating"
+                                            "title": "Communication with collaborators",
+                                            "description": "communication with scientists outside the lab for work on common projects, e.g. keep the PI in ‘Cc’ or not, possible standard operating procedures to agree on/ negotiate before collaborating"
                                         },
                                         {
-                                            title: "Visiting researchers",
-                                            description: "Who to invite? How to invite? Accessing funds for visits etc."
+                                            "title": "Visiting researchers",
+                                            "description": "Who to invite? How to invite? Accessing funds for visits etc."
                                         }
-                                        ]
+                                    ]
                                 },
                                 {
-                                    title: "Lab vocabulary",
-                                    description: "write a set of shared words by the lab members that are of everyday use (i.e., those words that are familiar to lab members but unfamiliar to newcomers, e.g., for tasks, effects, variables manipulated or measured)"
+                                    "title": "Lab vocabulary",
+                                    "description": "write a set of shared words by the lab members that are of everyday use (i.e., those words that are familiar to lab members but unfamiliar to newcomers, e.g., for tasks, effects, variables manipulated or measured)"
                                 },
                                 {
-                                    title: "Taking guests",
-                                    description: "where are guests allowed to access; when are guests permitted in the lab; who is allowed - visiting colleagues, family/friends, media/journalists; how many guests at a time (space/noise issues); safety of guests; hazards specific to the lab"
+                                    "title": "Taking guests",
+                                    "description": "where are guests allowed to access; when are guests permitted in the lab; who is allowed - visiting colleagues, family/friends, media/journalists; how many guests at a time (space/noise issues); safety of guests; hazards specific to the lab"
                                 }
                             ]
                         },
                         {
-                            title: "Lab social etiquette",
-                            description: "eating/drinking; noise control; dress-code"
+                            "title": "Lab social etiquette",
+                            "description": "eating/drinking; noise control; dress-code"
                         },
                         {
-                            title: "Maintaining Health and Safety",
-                            description: "",
-                            contents: [
+                            "title": "Maintaining Health and Safety",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Health & safety",
-                                    description: "list of mandatory health and safety courses that lab members must follow; what to do in case of emergency; being sick/having mental health problems; how to find counselling, with links and information regarding university medical clinic and counselling centre"
+                                    "title": "Health & safety",
+                                    "description": "list of mandatory health and safety courses that lab members must follow; what to do in case of emergency; being sick/having mental health problems; how to find counselling, with links and information regarding university medical clinic and counselling centre"
                                 },
                                 {
-                                    title: "Caring about happy lab life",
-                                    description: "strategies for maintaining work-life balance and promoting well-being; recreational options at the workplace; helping each other; social time; being organised; boundary setting",
-                                    resources: ["Johnson & Lester (2021)"]
+                                    "title": "Caring about happy lab life",
+                                    "description": "strategies for maintaining work-life balance and promoting well-being; recreational options at the workplace; helping each other; social time; being organised; boundary setting",
+                                    "resources": [
+                                        "Johnson & Lester (2021)"
+                                    ]
                                 }
                             ]
                         }
-                        ]
+                    ]
                 },
                 {
-                    title: "Standard research procedures",
-                    description: "",
-                    contents: [
+                    "title": "Standard research procedures",
+                    "description": "",
+                    "contents": [
                         {
-                            title: "Preparing a study",
-                            description: "",
-                            contents: [
+                            "title": "Preparing a study",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Initiating a study",
-                                    description: "",
-                                    contents: [
+                                    "title": "Initiating a study",
+                                    "description": "",
+                                    "contents": [
                                         {
-                                            title: "Starting a new project",
-                                            description: "how to propose a new project; who can approve a study"
+                                            "title": "Starting a new project",
+                                            "description": "how to propose a new project; who can approve a study"
                                         },
                                         {
-                                            title: "Creating the project team",
-                                            description: "how to invite members; how to join a project; how to allocate the duties and tasks"
+                                            "title": "Creating the project team",
+                                            "description": "how to invite members; how to join a project; how to allocate the duties and tasks"
                                         },
                                         {
-                                            title: "Logging the project",
-                                            description: "creating a project repository"
+                                            "title": "Logging the project",
+                                            "description": "creating a project repository"
                                         },
                                         {
-                                            title: "Resources for starting studies",
-                                            description: "financial resources, available equipment, available lab space, etc."
+                                            "title": "Resources for starting studies",
+                                            "description": "financial resources, available equipment, available lab space, etc."
                                         }
                                     ]
                                 },
                                 {
-                                    title: "Checking feasibility and validity",
-                                    description: "",
-                                    contents: [
+                                    "title": "Checking feasibility and validity",
+                                    "description": "",
+                                    "contents": [
                                         {
-                                            title: "Consultation",
-                                            description: "literature review; expert consultation; focus groups",
-                                            options: [
+                                            "title": "Consultation",
+                                            "description": "literature review; expert consultation; focus groups",
+                                            "options": [
                                                 {
-                                                    text: "The study design is always discussed among lab members and local colleagues.",
-                                                    difficulty: 1
+                                                    "text": "The study design is always discussed among lab members and local colleagues.",
+                                                    "difficulty": 1
                                                 },
                                                 {
-                                                    text: "The design is discussed with other experts in the field using the expert consensus method, adversarial collaboration, presubmission inquiry, or registered report.",
-                                                    difficulty: 2
+                                                    "text": "The design is discussed with other experts in the field using the expert consensus method, adversarial collaboration, presubmission inquiry, or registered report.",
+                                                    "difficulty": 2
                                                 }
                                             ]
                                         },
                                         {
-                                            title: "Cross-checking",
-                                            description: "protocol testing; materials testing; who are involved",
-                                            options: [
+                                            "title": "Cross-checking",
+                                            "description": "protocol testing; materials testing; who are involved",
+                                            "options": [
                                                 {
-                                                    text: "At least one other lab member checks materials, experimental conditions for mistakes, and functionality issues (e.g., randomization for any test materials).",
-                                                    difficulty: 1
+                                                    "text": "At least one other lab member checks materials, experimental conditions for mistakes, and functionality issues (e.g., randomization for any test materials).",
+                                                    "difficulty": 1
                                                 },
                                                 {
-                                                    text: "External researchers approached to check materials, experimental conditions for mistakes, and functionality issues (e.g., randomization for any test materials).",
-                                                    difficulty: 2
+                                                    "text": "External researchers approached to check materials, experimental conditions for mistakes, and functionality issues (e.g., randomization for any test materials).",
+                                                    "difficulty": 2
                                                 }
                                             ]
                                         },
                                         {
-                                            title: "Pilot testing",
-                                            description: "when and how to conduct pilot tests; protocol testing; what to do with the results",
-                                            options: [
+                                            "title": "Pilot testing",
+                                            "description": "when and how to conduct pilot tests; protocol testing; what to do with the results",
+                                            "options": [
                                                 {
-                                                    text: "We collect at least one set of test data for every protocol (i.e., experimental condition) and check the integrity of the data.",
-                                                    difficulty: 1
+                                                    "text": "We collect at least one set of test data for every protocol (i.e., experimental condition) and check the integrity of the data.",
+                                                    "difficulty": 1
                                                 }
                                             ]
                                         }
                                     ]
                                 },
                                 {
-                                    title: "Operational steps",
-                                    description: "",
-                                    resources: ["https://osf.io/zab38/wiki/home/"],
-                                    contents: [
+                                    "title": "Operational steps",
+                                    "description": "",
+                                    "resources": [
+                                        "https://osf.io/zab38/wiki/home/"
+                                    ],
+                                    "contents": [
                                         {
-                                            title: "Preregistering the study",
-                                            description: "where/when to preregister; what should be in the preregistration, if applicable, links to template(s),  how to find past preregistrations from the lab",
-                                            options: [
+                                            "title": "Preregistering the study",
+                                            "description": "where/when to preregister; what should be in the preregistration, if applicable, links to template(s),  how to find past preregistrations from the lab",
+                                            "options": [
                                                 {
-                                                    text: "We publicly preregister every project before data collection following preregistration standards.",
-                                                    difficulty: 1
+                                                    "text": "We publicly preregister every project before data collection following preregistration standards.",
+                                                    "difficulty": 1
                                                 }
                                             ]
                                         },
                                         {
-                                            title: "Obtaining official approvals",
-                                            description: "",
-                                            contents: [
+                                            "title": "Obtaining official approvals",
+                                            "description": "",
+                                            "contents": [
                                                 {
-                                                    title: "Umbrella approval the lab has",
-                                                    description: "how to access those"
+                                                    "title": "Umbrella approval the lab has",
+                                                    "description": "how to access those"
                                                 },
                                                 {
-                                                    title: "IRB ethics approval",
-                                                    description: "who is responsible; when and how to apply; where to document it; how to access applications for past projects in the lab",
-                                                    options: [
+                                                    "title": "IRB ethics approval",
+                                                    "description": "who is responsible; when and how to apply; where to document it; how to access applications for past projects in the lab",
+                                                    "options": [
                                                         {
-                                                            text: "It is the project leader’s responsibility to make sure that IRB approval is obtained before any data collection. We share an English IRB approval document on our public project repository for each project.",
-                                                            difficulty: 1
+                                                            "text": "It is the project leader’s responsibility to make sure that IRB approval is obtained before any data collection. We share an English IRB approval document on our public project repository for each project.",
+                                                            "difficulty": 1
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    title: "Other approvals",
-                                                    description: "e.g., from funder, collaborators"
+                                                    "title": "Other approvals",
+                                                    "description": "e.g., from funder, collaborators"
                                                 }
                                             ]
                                         },
                                         {
-                                            title: "Creating data management plan",
-                                            description: "what should be in it; how often should it be refreshed",
-                                            resources: ["https://dmptool.org/", "https://dmeg.cessda.eu/Data-Management-Expert-Guide/1.-Plan/Adapt-your-DMP-Part-1"]
+                                            "title": "Creating data management plan",
+                                            "description": "what should be in it; how often should it be refreshed",
+                                            "resources": [
+                                                "https://dmptool.org/",
+                                                "https://dmeg.cessda.eu/Data-Management-Expert-Guide/1.-Plan/Adapt-your-DMP-Part-1"
+                                            ]
                                         },
                                         {
-                                            title: "Creating time management plan",
-                                            description: "defining the milestones of a project; how to set time frames; project management tools; outlining the workflow; how to access plans for past projects in the lab"
+                                            "title": "Creating time management plan",
+                                            "description": "defining the milestones of a project; how to set time frames; project management tools; outlining the workflow; how to access plans for past projects in the lab"
                                         },
                                         {
-                                            title: "Checking the calibration of hardware and tools",
-                                            description: "e.g., check the calibration of measurement instruments and hardware equipment that will be used in the study; how to access standard operating procedures for past projects in the lab"
+                                            "title": "Checking the calibration of hardware and tools",
+                                            "description": "e.g., check the calibration of measurement instruments and hardware equipment that will be used in the study; how to access standard operating procedures for past projects in the lab"
                                         },
                                         {
-                                            title: "Preparing materials",
-                                            description: "e.g., ordering supplies"
+                                            "title": "Preparing materials",
+                                            "description": "e.g., ordering supplies"
                                         },
                                         {
-                                            title: "Creating the experiment",
-                                            description: "tools and programs we use for experiment, with guidelines and links"
+                                            "title": "Creating the experiment",
+                                            "description": "tools and programs we use for experiment, with guidelines and links"
                                         },
                                         {
-                                            title: "Securing testing space",
-                                            description: "how to book the testing space; how to distribute testing space/slots; how to keep the testing space COVID-cautious"
-                                        }
-                                    ]
-                                }
-                                ]
-                        },
-                        {
-                            title: "Conducting a study",
-                            description: "",
-                            contents: [
-                                {
-                                    title: "Recruiting subjects",
-                                    description: "how to recruit participants; how to compensate and administer participation; inclusion criteria to screen for; how to deliver instructions and check comprehension; how to deal with subject non-compliance"
-                                },
-                                {
-                                    title: "Operating equipment",
-                                    description: "who can use and how to use specialized equipment"
-                                },
-                                {
-                                    title: "Collecting the data",
-                                    description: "detailed instructions for in-lab, field and remote/online data collection; how to deal with equipment failure or medical emergencies; how to deal with incidental medical findings"
-                                },
-                                {
-                                    title: "Securing protocol delivery",
-                                    description: "checklists, supervision"
-                                },
-                                {
-                                    title: "Documenting project development",
-                                    description: "where do we log what happened (e.g., digital logbooks)",
-                                    options: [
-                                        {
-                                            text: "We document the major milestones that a project reaches in a text file that is shared with all the lab members.",
-                                            difficulty: 1
-                                        },
-                                        {
-                                            text: "We document project development publicly and continuously (e.g. on our webpage or through a public Github repository) throughout the lifecycle of the project.",
-                                            difficulty: 2
-                                        }
-                                    ]
-                                },
-                                {
-                                    title: "Closing data collection",
-                                    description: "where to store paperwork; how to return equipment/ cancel lab bookings/ finalise finances; feedback for subjects (immediate/delayed, personal/public); writing report; list of operations to do when a study is concluded (e.g., final photo of the experimental setup, a short report of the study)"
-                                },
-                                {
-                                    title: "Troubleshooting experiments",
-                                    description: "how to force close software, name files to denote errors, re-runs, what to record for the data analyst"
-                                }
-                            ]
-                        },
-                        {
-                            title: "Data and file management",
-                            description: "",
-                            contents: [
-                                {
-                                    title: "Data processing and analysis",
-                                    description: "what programs to use for data processing and analyses, how to document your work",
-                                    options: [
-                                        {
-                                            text: "The workflow of data processing is documented in detail and included in the manuscript.",
-                                            difficulty: 1
-                                        },
-                                        {
-                                            text: "Data processing is done by a reproducible, well-commented, human and machine-readable code (e.g. R-Markdown or Jupyter notebook).",
-                                            difficulty: 2
-                                        }
-                                    ]
-                                },
-                                {
-                                    title: "Data management quality control",
-                                    description: "code review, code hygiene (keeping the code functional, commented, reproducible)"
-                                },
-                                {
-                                    title: "Metadata",
-                                    description: "e.g., using codebook, links to examples, tools for creating codebooks",
-                                    options: [
-                                        {
-                                            text: "Contains at least information about which project the data belongs to, when it was collected, and who collected it.",
-                                            difficulty: 1
-                                        },
-                                        {
-                                            text: "Contains time-stamped information on all the details of the project that the data belongs to (e.g., computer specifications, experimenter, etc.).",
-                                            difficulty: 2
-                                        }
-                                    ]
-                                },
-                                {
-                                    title: "File and data standards",
-                                    description: "",
-                                    contents: [
-                                        {
-                                            title: "Dataset structure",
-                                            description: "what structure to prefer (e.g., tidy, long or wide); variable naming standards"
-                                        },
-                                        {
-                                            title: "Folder structure",
-                                            description: "e.g., different folders for raw and processed data; how to store data from different studies in the same project; standard folder structure for a project"
-                                        },
-                                        {
-                                            title: "File and folder naming",
-                                            description: "e.g., using snake or camel case"
-                                        },
-                                        {
-                                            title: "File formats",
-                                            description: "e.g., tsv for data files"
-                                        },
-                                        {
-                                            title: "File version control",
-                                            description: "e.g., using Git"
-                                        },
-                                        
-                                    ]
-                                },
-                                {
-                                    title: "Saving and archiving",
-                                    description: "when and where to store data for short and long term; where to store all the materials of a project (including approvals, signed consent forms, logs, data, analysis codes, etc.), backups"
-                                },
-                                {
-                                    title: "Protection of data privacy",
-                                    description: "how to ensure the safety of the collected personal information, safeguarding, and storing of primary data, who has access to the data"
-                                },
-                                {
-                                    title: "Policies for sharing and access",
-                                    description: "open data/ code/ materials; which repository to use; how to deal with errors detected at later stages; how to deal with different versions of the same code; sharing confidential documents"
-                                },
-                                {
-                                    title: "Intellectual property and reuse",
-                                    description: "what licence to use",
-                                    resources: ["https://choosealicense.com/"],
-                                    options: [
-                                        {
-                                            text: "Every graph, dataset, code analytic software, dataset, and study materials get licensed.",
-                                            difficulty: 1
+                                            "title": "Securing testing space",
+                                            "description": "how to book the testing space; how to distribute testing space/slots; how to keep the testing space COVID-cautious"
                                         }
                                     ]
                                 }
                             ]
                         },
                         {
-                            title: "Communicating the results of a study",
-                            description: "",
-                            contents: [
+                            "title": "Conducting a study",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Ensuring standard and transparent reporting",
-                                    description: "choosing which guidelines to follow",
-                                    resources: ["http://www.equator-network.org/reporting-guidelines/", "http://www.shinyapps.org/apps/TransparencyChecklist/", "https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-021-01626-4", "https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageID=3728"]
+                                    "title": "Recruiting subjects",
+                                    "description": "how to recruit participants; how to compensate and administer participation; inclusion criteria to screen for; how to deliver instructions and check comprehension; how to deal with subject non-compliance"
                                 },
                                 {
-                                    title: "Templates/ standard operating procedures for plotting",
-                                    description: "available code; PI preferences; consistent colour schemes; dealing with raw data/ plotting single data points"
+                                    "title": "Operating equipment",
+                                    "description": "who can use and how to use specialized equipment"
                                 },
                                 {
-                                    title: "Work-mode to co-write a paper",
-                                    description: "Word documents sent back and forth, GoogleDocs, R Markdown/ papaya, Overleaf; Within lab folder of examples of well-written articles; reference management (e.g., zotero, mendeley, endnote)"
+                                    "title": "Collecting the data",
+                                    "description": "detailed instructions for in-lab, field and remote/online data collection; how to deal with equipment failure or medical emergencies; how to deal with incidental medical findings"
                                 },
                                 {
-                                    title: "Proof-reading",
-                                    description: "which documents to proof-read; who can you ask to proof-read",
-                                    options: [
+                                    "title": "Securing protocol delivery",
+                                    "description": "checklists, supervision"
+                                },
+                                {
+                                    "title": "Documenting project development",
+                                    "description": "where do we log what happened (e.g., digital logbooks)",
+                                    "options": [
                                         {
-                                            text: "Co-authors should proofread any manuscript submissions, pre-prints, and conference presentation abstract submissions.",
-                                            difficulty: 1
-                                        }
-                                    ]
-                                },
-                                {
-                                    title: "Choosing the journal",
-                                    description: "what are the main considerations for choosing a journal to publish our work",
-                                    options: [
-                                        {
-                                            text: "We developed a list of potential journals to publish in, based on considerations such as the relevance of the manuscript to the journal, journals that use the registered reports publishing format, publisher copyright and self-archiving policies (prioritised by the freedom to provide public access to pre-reviewed manuscripts).",
-                                            difficulty: 1
-                                        }
-                                    ]
-                                },
-                                {
-                                    title: "Accreditation",
-                                    description: "",
-                                    contents: [
-                                        {
-                                            title: "Contributorship",
-                                            description: "when is contributorship decided; how to document it; what taxonomy to use (e.g., CRediT)",
-                                            resources: ["https://onlinelibrary.wiley.com/doi/epdf/10.1002/leap.1210"]
+                                            "text": "We document the major milestones that a project reaches in a text file that is shared with all the lab members.",
+                                            "difficulty": 1
                                         },
                                         {
-                                            title: "Acknowledgments",
-                                            description: "people, funding agencies",
-                                            resources: ["https://onlinelibrary.wiley.com/doi/full/10.1002/leap.1210", "https://www.casrai.org/credit.html", "https://onlinelibrary.wiley.com/doi/full/10.1002/leap.1191"]
+                                            "text": "We document project development publicly and continuously (e.g. on our webpage or through a public Github repository) throughout the lifecycle of the project.",
+                                            "difficulty": 2
                                         }
                                     ]
                                 },
                                 {
-                                    title: "Open access",
-                                    description: "covering fees, preprint, specify the site(s) for posting preprints, postprints; how to make old papers easily available, is there an institutional repository",
-                                    options: [
+                                    "title": "Closing data collection",
+                                    "description": "where to store paperwork; how to return equipment/ cancel lab bookings/ finalise finances; feedback for subjects (immediate/delayed, personal/public); writing report; list of operations to do when a study is concluded (e.g., final photo of the experimental setup, a short report of the study)"
+                                },
+                                {
+                                    "title": "Troubleshooting experiments",
+                                    "description": "how to force close software, name files to denote errors, re-runs, what to record for the data analyst"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Data and file management",
+                            "description": "",
+                            "contents": [
+                                {
+                                    "title": "Data processing and analysis",
+                                    "description": "what programs to use for data processing and analyses, how to document your work",
+                                    "options": [
                                         {
-                                            text: "Whenever possible, we try to publish in open access journals. For all of our manuscripts, the latest version is openly shared as a preprint.",
-                                            difficulty: 1
+                                            "text": "The workflow of data processing is documented in detail and included in the manuscript.",
+                                            "difficulty": 1
+                                        },
+                                        {
+                                            "text": "Data processing is done by a reproducible, well-commented, human and machine-readable code (e.g. R-Markdown or Jupyter notebook).",
+                                            "difficulty": 2
                                         }
                                     ]
                                 },
                                 {
-                                    title: "Poster presentation",
-                                    description: "how to access examples of lab posters at recent conferences, use logos from grant agency, university; where to print; using templates (e.g., #betterposter)"
+                                    "title": "Data management quality control",
+                                    "description": "code review, code hygiene (keeping the code functional, commented, reproducible)"
                                 },
                                 {
-                                    title: "Conference attendance",
-                                    description: "which are standard conferences the lab attends regularly, who pays, are there extra opportunities to get money from the department/ university/ conference organiser, are there special internal criteria for attending, e.g. poster presentation/ talk etc."
+                                    "title": "Metadata",
+                                    "description": "e.g., using codebook, links to examples, tools for creating codebooks",
+                                    "options": [
+                                        {
+                                            "text": "Contains at least information about which project the data belongs to, when it was collected, and who collected it.",
+                                            "difficulty": 1
+                                        },
+                                        {
+                                            "text": "Contains time-stamped information on all the details of the project that the data belongs to (e.g., computer specifications, experimenter, etc.).",
+                                            "difficulty": 2
+                                        }
+                                    ]
                                 },
                                 {
-                                    title: "Talks",
-                                    description: "presentation templates; how to give a talk; how to access slides of past talks given by lab members; how to acknowledge other lab members and funding agencies"
+                                    "title": "File and data standards",
+                                    "description": "",
+                                    "contents": [
+                                        {
+                                            "title": "Dataset structure",
+                                            "description": "what structure to prefer (e.g., tidy, long or wide); variable naming standards"
+                                        },
+                                        {
+                                            "title": "Folder structure",
+                                            "description": "e.g., different folders for raw and processed data; how to store data from different studies in the same project; standard folder structure for a project"
+                                        },
+                                        {
+                                            "title": "File and folder naming",
+                                            "description": "e.g., using snake or camel case"
+                                        },
+                                        {
+                                            "title": "File formats",
+                                            "description": "e.g., tsv for data files"
+                                        },
+                                        {
+                                            "title": "File version control",
+                                            "description": "e.g., using Git"
+                                        }
+                                    ]
                                 },
                                 {
-                                    title: "Public engagement",
-                                    description: "using social media such as Twitter; blogpost; public talks",
-                                    resources: ["http://soapboxscience.org/soapbox-science-2019-exeter/", "https://pintofscience.com/"]
+                                    "title": "Saving and archiving",
+                                    "description": "when and where to store data for short and long term; where to store all the materials of a project (including approvals, signed consent forms, logs, data, analysis codes, etc.), backups"
+                                },
+                                {
+                                    "title": "Protection of data privacy",
+                                    "description": "how to ensure the safety of the collected personal information, safeguarding, and storing of primary data, who has access to the data"
+                                },
+                                {
+                                    "title": "Policies for sharing and access",
+                                    "description": "open data/ code/ materials; which repository to use; how to deal with errors detected at later stages; how to deal with different versions of the same code; sharing confidential documents"
+                                },
+                                {
+                                    "title": "Intellectual property and reuse",
+                                    "description": "what licence to use",
+                                    "resources": [
+                                        "https://choosealicense.com/"
+                                    ],
+                                    "options": [
+                                        {
+                                            "text": "Every graph, dataset, code analytic software, dataset, and study materials get licensed.",
+                                            "difficulty": 1
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            title: "Dealing with mistakes",
-                            decription: "",
-                            contents: [
+                            "title": "Communicating the results of a study",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "How to deal with mistakes",
-                                    description: "how to detect mistakes, how to decrease damage, how to learn from mistakes and prevent them in the future, who should be talked to first, is there a designated lab member before talking to the PI; is there a university official to report serious errors/ accidents to"
+                                    "title": "Ensuring standard and transparent reporting",
+                                    "description": "choosing which guidelines to follow",
+                                    "resources": [
+                                        "http://www.equator-network.org/reporting-guidelines/",
+                                        "http://www.shinyapps.org/apps/TransparencyChecklist/",
+                                        "https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-021-01626-4",
+                                        "https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageID=3728"
+                                    ]
                                 },
                                 {
-                                    title: "Confidentiality breaches",
-                                    description: "e.g., data breaches; whom to report to"
+                                    "title": "Templates/ standard operating procedures for plotting",
+                                    "description": "available code; PI preferences; consistent colour schemes; dealing with raw data/ plotting single data points"
+                                },
+                                {
+                                    "title": "Work-mode to co-write a paper",
+                                    "description": "Word documents sent back and forth, GoogleDocs, R Markdown/ papaya, Overleaf; Within lab folder of examples of well-written articles; reference management (e.g., zotero, mendeley, endnote)"
+                                },
+                                {
+                                    "title": "Proof-reading",
+                                    "description": "which documents to proof-read; who can you ask to proof-read",
+                                    "options": [
+                                        {
+                                            "text": "Co-authors should proofread any manuscript submissions, pre-prints, and conference presentation abstract submissions.",
+                                            "difficulty": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Choosing the journal",
+                                    "description": "what are the main considerations for choosing a journal to publish our work",
+                                    "options": [
+                                        {
+                                            "text": "We developed a list of potential journals to publish in, based on considerations such as the relevance of the manuscript to the journal, journals that use the registered reports publishing format, publisher copyright and self-archiving policies (prioritised by the freedom to provide public access to pre-reviewed manuscripts).",
+                                            "difficulty": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Accreditation",
+                                    "description": "",
+                                    "contents": [
+                                        {
+                                            "title": "Contributorship",
+                                            "description": "when is contributorship decided; how to document it; what taxonomy to use (e.g., CRediT)",
+                                            "resources": [
+                                                "https://onlinelibrary.wiley.com/doi/epdf/10.1002/leap.1210"
+                                            ]
+                                        },
+                                        {
+                                            "title": "Acknowledgments",
+                                            "description": "people, funding agencies",
+                                            "resources": [
+                                                "https://onlinelibrary.wiley.com/doi/full/10.1002/leap.1210",
+                                                "https://www.casrai.org/credit.html",
+                                                "https://onlinelibrary.wiley.com/doi/full/10.1002/leap.1191"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Open access",
+                                    "description": "covering fees, preprint, specify the site(s) for posting preprints, postprints; how to make old papers easily available, is there an institutional repository",
+                                    "options": [
+                                        {
+                                            "text": "Whenever possible, we try to publish in open access journals. For all of our manuscripts, the latest version is openly shared as a preprint.",
+                                            "difficulty": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Poster presentation",
+                                    "description": "how to access examples of lab posters at recent conferences, use logos from grant agency, university; where to print; using templates (e.g., #betterposter)"
+                                },
+                                {
+                                    "title": "Conference attendance",
+                                    "description": "which are standard conferences the lab attends regularly, who pays, are there extra opportunities to get money from the department/ university/ conference organiser, are there special internal criteria for attending, e.g. poster presentation/ talk etc."
+                                },
+                                {
+                                    "title": "Talks",
+                                    "description": "presentation templates; how to give a talk; how to access slides of past talks given by lab members; how to acknowledge other lab members and funding agencies"
+                                },
+                                {
+                                    "title": "Public engagement",
+                                    "description": "using social media such as Twitter; blogpost; public talks",
+                                    "resources": [
+                                        "http://soapboxscience.org/soapbox-science-2019-exeter/",
+                                        "https://pintofscience.com/"
+                                    ]
                                 }
                             ]
                         },
                         {
-                            title: "Funding & budgeting",
-                            description: "",
-                            contents: [
+                            "title": "Dealing with mistakes",
+                            "description": "",
+                            "contents": [
                                 {
-                                    title: "Lab money",
-                                    description: "what does the lab/faculty cover and how"
+                                    "title": "How to deal with mistakes",
+                                    "description": "how to detect mistakes, how to decrease damage, how to learn from mistakes and prevent them in the future, who should be talked to first, is there a designated lab member before talking to the PI; is there a university official to report serious errors/ accidents to"
                                 },
                                 {
-                                    title: "Scholarships, travel grants, prizes and awards for student members",
-                                    description: "list possibilities for student with links, modes to get the applications of other lab members who won before"
+                                    "title": "Confidentiality breaches",
+                                    "description": "e.g., data breaches; whom to report to"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Funding & budgeting",
+                            "description": "",
+                            "contents": [
+                                {
+                                    "title": "Lab money",
+                                    "description": "what does the lab/faculty cover and how"
                                 },
                                 {
-                                    title: "Grant, scholarship administration",
-                                    description: "where to log, how to log administration, are there grant officers to assist with grant writing; how budgets are proposed in funding applications; who gets to participate in funding applications"
+                                    "title": "Scholarships, travel grants, prizes and awards for student members",
+                                    "description": "list possibilities for student with links, modes to get the applications of other lab members who won before"
                                 },
                                 {
-                                    title: "University benefits/ discounts",
-                                    descriptions: "e.g. discounts for health insurance, gym membership, book sales"
+                                    "title": "Grant, scholarship administration",
+                                    "description": "where to log, how to log administration, are there grant officers to assist with grant writing; how budgets are proposed in funding applications; who gets to participate in funding applications"
+                                },
+                                {
+                                    "title": "University benefits/ discounts",
+                                    "description": "e.g. discounts for health insurance, gym membership, book sales"
                                 }
                             ]
                         }
-                            ]
-        }
+                    ]
+                }
             ]
         }
+    ]
 }
