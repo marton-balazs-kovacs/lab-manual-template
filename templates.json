@@ -1,5 +1,10 @@
 [
 	{
+		"title": "Lab Manual Template",
+		"template": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/lab-manual-template.json",
+		"usecase": "General Lab Manual Template for life and social sciences"
+	},
+	{
 		"title": "Blueprint example template",
 		"template": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/example-template.json",
 		"usecase": "Template to test the Blueprint app"
