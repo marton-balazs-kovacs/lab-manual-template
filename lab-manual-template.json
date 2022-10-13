@@ -1,5 +1,9 @@
 {
-    "metadata": {},
+    "metadata": {
+		"name": "General lab manual template for life and social sciences",
+		"uid": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/lab-manual-template.json",
+		"validationSchemaId": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/lab-manual-template-schema.json"
+	},
     "contents": [
         {
             "title": "About this Manual",

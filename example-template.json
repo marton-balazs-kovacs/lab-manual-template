@@ -1,5 +1,9 @@
 {
-  "metadata": {},
+  "metadata": {
+	  "name": "Example lab manual template for testing the blueprint application",
+	  "uid": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/example-template.json",
+	  "validationSchemaId": "https://raw.githubusercontent.com/marton-balazs-kovacs/lab-manual-template/main/lab-manual-template-schema.json"
+	  },
   "contents": [
     {
       "title": "Preparing a study",
